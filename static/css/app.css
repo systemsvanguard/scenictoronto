@@ -1,0 +1,34 @@
+/* Portfolio site for fullstack developer Ryan Hunter | ryan@RyanHunter.org | GitHub handle : SystemsVanguard  */
+body {font-family: "Lato", sans-serif}
+
+mybold {
+    font-weight: bold;
+}
+
+/* Responsive Images */
+/* <img src ="/static/images/sights/highpark.jpg" alt="High Park, Toronto" class="responsiveImage" width="730" height="487"> */
+.responsiveImage {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* remove link underlines  */
+.link_no_underline:link {
+    text-decoration: none;
+}
+.link_no_underline:visited {
+    text-decoration: none;
+}
+.link_no_underline:hover {
+    text-decoration: none;
+}
+
+/* Footer */
+.footerTitle {
+	color:#00008b; 
+	font-weight:bold;
+	font-family: "Mukta Malar", Helvetica, sans-serif;
+	font-size: 1.875em;
+}
+
